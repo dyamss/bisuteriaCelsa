@@ -1,0 +1,48 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+
+}
+
+.hola{
+       width:400px;
+       height:400px;
+       margin: auto;
+       position: relative;
+       list-style: none;
+       padding: 0;
+       display: flex;
+
+       justify-content: center;
+       align-items: flex-end;
+}
+.hola img{
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       opacity: 0;
+       transition: all 0.7s;
+
+
+}
+.hola input[type= "radio"]{
+       position: relative;
+       z-index: 50;
+       margin: 10px;
+}
+
+.hola input[type="radio"]:checked ~ img{
+     opacity: 1;
+
+}
+
+
+
+
+
+
